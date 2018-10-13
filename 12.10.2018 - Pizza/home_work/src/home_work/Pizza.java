@@ -6,7 +6,7 @@ public class Pizza {
 	private int diameter;
 	private int slices;
 	private int toppings;
-//	private boolean is
+	
 	Scanner scan = new Scanner (System.in);
 	
 	public int getDiameter() {
