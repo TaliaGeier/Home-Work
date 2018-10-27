@@ -39,7 +39,7 @@ public class SimpleTime {
 		return second;
 	}
 	public void setSecond(int second) {
-		this.second = ((second<=59 && second>=0)?second:0);;
+		this.second = ((second<=59 && second>=0)?second:0);
 	}
 	
 	// METHODS

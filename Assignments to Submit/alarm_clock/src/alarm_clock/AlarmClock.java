@@ -50,7 +50,7 @@ public class AlarmClock {
 		for (int j = 0; j < numOfSecondsInADay; j++) { // a simulation of a 24-hour run
 
 			currentTime.tick();// time is advancing one second at a time
-//			S ystem.out.println(currentTime.toString());// prints current time
+			System.out.println(currentTime.toString());// prints current time
 
 			for (int i = 0; i < alarmTime.length; i++) {
 				// scanning the array of alarms to check whether the alarm is on AND if it

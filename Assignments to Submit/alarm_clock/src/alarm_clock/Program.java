@@ -29,5 +29,6 @@ public class Program {
 	
 		// Activating alarm clock
 		myAlarmClock.tick();
+		scan.close();
 	}
 }
