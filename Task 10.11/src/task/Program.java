@@ -29,11 +29,11 @@ public class Program {
 		// Alice
 		Queue<Task> alicesTasks = new LinkedList<>(); // creating Alice's Queue
 		
-		// creating his tasks separately
+		// creating her tasks separately
 		Task<String> t3 = new Task<String>("Cook Food", 20);
 		Task<String[][]> t4 = new Task<>(new String[][] {{"Buy Drink", "Buy Food"}, {"Pay to Post", "Pay to Bank"}}, 120);
 	
-		// adding his tasks to his Queue
+		// adding her tasks to his Queue
 		alicesTasks.add(t3);
 		alicesTasks.add(t4);
 		
